@@ -1,0 +1,133 @@
+/********************************************************/
+/*CODIGO ESENCIAL PARA QUE QUEDE BIEN CON LAS SECCIONES */
+/*******************************************************/
+
+body,html {
+
+ margin:0;
+    overflow:hidden !important;  /* QUITAR EL SCROLL EN Y */
+
+}
+
+
+body,.onepage-wrapper,html {
+
+ display:block;
+ position:static;
+
+ padding:0;
+ width:100%;
+ height:100%
+}
+
+/**************************************************************/
+/* END CODIGO ESENCIAL PARA QUE QUEDE BIEN CON LAS SECCIONES */
+/************************************************************/
+
+
+
+
+
+/*********************************************/
+/* BOTONES DE PAGINACIÓN, CAROUSEL VERTICAL */
+/*******************************************/
+
+#nav {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+}
+
+#nav a.prev {
+	background: url(../img/prev.png) rgba(31,31,31,.2) no-repeat center;
+}
+
+#nav a {
+	display: block;
+	width: 80px;
+	height: 80px;
+	background-color: #1F1F1F;
+	border-bottom: 2px solid rgba(31,31,31,.5);
+}
+
+.t03 {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#nav a.next {
+	background: url(../img/next.png) #1F1F1F no-repeat center;
+}
+
+
+
+
+/********************/
+
+
+.onepage-wrapper {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+	padding: 0;
+	-webkit-transform-style: preserve-3d;
+}
+
+#f01 {
+	background: #1F788E;
+	/*height: 100%;
+	width: 100%; */
+	position: relative;
+
+  width: 100%;
+  height: 981px;
+
+}
+
+.onepage-wrapper .ops-section {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#f02 {
+  width: 100%;
+  height: 981px;
+	background: #305556;
+}
+
+#f03 {
+	background: #AF5B6B;
+  width: 100%;
+  height: 981px;
+}
+
+#f04 {
+  width: 100%;
+  height: 981px;
+	background: url(../img/bg.png);
+}
+
+#f05 {
+  width: 100%;
+  height: 981px;
+	background: #549282;
+}
+
+#f06 {
+	background: #181818;
+	width: 100%;
+  height: 981px;
+	position: relative;
+}
+
+#f07 {
+	background: #3a3a3a;
+	width: 100%;
+  height: 981px;
+	position: relative;
+}
